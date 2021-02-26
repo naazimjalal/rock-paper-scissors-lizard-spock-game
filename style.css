@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cornflowerblue;
+}
+header{
+    background-color: lightblue;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.scoreBoard{
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid white;
+    width: 200px;
+    position: relative;
+}
+
+.Badge{
+    background-color: tomato;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#User_label{
+    position: absolute;
+    top: 20px;
+    left: -40px;
+}
+
+#Computer_label{
+    position: absolute;
+    top: 20px;
+    right: -40px;
+}
+
+.scores{
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.result{
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+    color: whitesmoke;
+}
+
+.Choices{
+    text-align: center;
+    
+}
+
+.choice{
+    border: 9px solid lightblue;
+    border-radius: 6000px;
+    display: inline-block;
+    padding: 90px 30px;
+    left: 30px;
+    transition: 0.4s ease;
+}
+.creds{
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 25px;
+    padding-right: 45px;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+}
+.redirect{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size: 30px;
+    color: cornsilk;
+    font-size: 40px;
+}
+.greenGlow{
+    border: 9px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.redGlow{
+    border: 9px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.greyGlow{
+    border: 9px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
+
+ 
